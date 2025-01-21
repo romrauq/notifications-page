@@ -88,9 +88,11 @@ body {
 .profile-name {
 	color: var(--Very-dark-blue);
 	font-weight: bold;
+	cursor: pointer;
 }
 .post-reference-text {
 	font-weight: bold;
+	cursor: pointer;
 }
 .group-reference-text {
 	color: var(--Blue);
@@ -98,16 +100,23 @@ body {
 	cursor: pointer;
 }
 .message-text {
+	color: var(--Dark-grayish-blue);
 	width: 60%;
 	margin: 0 0 0 50px;
 	padding: 10px;
 	border: 1px solid var(--Light-grayish-blue-1);
 	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.message-text:hover {
+	background-color: var(--Light-grayish-blue-1);
 }
 .image-post-reference {
 	width: 40px;
 	align-self: flex-end;
 	margin: 0 0 0 auto;
+	cursor: pointer;
 }
 .notification-badge {
 	width: 10px;
