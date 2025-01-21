@@ -39,6 +39,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin: 0 0 30px 0;
 }
 .header-row-left {
 	display: flex;
@@ -63,7 +64,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
-	padding: 20px;
 }
 .notification-item-column {
 	display: flex;
@@ -74,6 +74,9 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	padding: 10px;
+	border: 1px solid hsla(205, 33%, 90%, 0.45);
+	border-radius: 5px;
 }
 .profile-image {
 	width: 40px;
