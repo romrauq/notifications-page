@@ -80,7 +80,7 @@ body {
 	border-radius: 5px;
 	transition: 0.3s;
 }
-.notification-item-container-row:hover {
+.active-item {
 	background-color: var(--Light-grayish-blue-2);
 }
 .profile-image {
