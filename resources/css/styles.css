@@ -60,22 +60,65 @@ body {
 	cursor: pointer;
 }
 .notifications-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
 }
 .notification-item-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 .notification-item-container-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 .profile-image {
+	width: 40px;
+}
+.notification-text-column {
+	display: flex;
+	flex-direction: column;
 }
 .notification-text {
+	color: var(--Dark-grayish-blue);
 }
 .profile-name {
+	color: var(--Very-dark-blue);
+	font-weight: bold;
 }
 .post-reference-text {
+	font-weight: bold;
+}
+.group-reference-text {
+	color: var(--Blue);
+	font-weight: bold;
+	cursor: pointer;
+}
+.message-text {
+	width: 60%;
+	margin: 0 0 0 50px;
+	padding: 10px;
+	border: 1px solid var(--Light-grayish-blue-1);
+	border-radius: 5px;
+}
+.image-post-reference {
+	width: 40px;
+	align-self: flex-end;
+	margin: 0 0 0 auto;
 }
 .notification-badge {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: var(--Red);
+	margin: -18px 0 0 0;
 }
 .notification-time {
+	font-weight: 600;
+	color: var(--Dark-grayish-blue);
 }
 .attribution {
 	font-size: 11px;
